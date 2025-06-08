@@ -3,7 +3,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '42 16 * * 4'
+    - cron:  '17 8 * * 4'   #  北京时间每周四 16:17（对应 UTC 8:17）
 
 jobs:
   Claim:
